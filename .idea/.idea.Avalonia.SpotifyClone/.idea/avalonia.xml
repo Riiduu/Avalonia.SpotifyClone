@@ -3,6 +3,8 @@
   <component name="AvaloniaProject">
     <option name="projectPerEditor">
       <map>
+        <entry key="Views/Components/FriendsBar.axaml" value="Avalonia.SpotifyClone.csproj" />
+        <entry key="Views/Components/MainView.axaml" value="Avalonia.SpotifyClone.csproj" />
         <entry key="Views/Components/SideBar.axaml" value="Avalonia.SpotifyClone.csproj" />
         <entry key="Views/MainWindow.axaml" value="Avalonia.SpotifyClone.csproj" />
       </map>

@@ -16,7 +16,7 @@ namespace Avalonia.SpotifyClone
             {
                 return (Control)Activator.CreateInstance(type)!;
             }
-            
+
             return new TextBlock { Text = "Not Found: " + name };
         }
 
