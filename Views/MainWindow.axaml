@@ -3,15 +3,20 @@
         xmlns:vm="using:Avalonia.SpotifyClone.ViewModels"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:components="clr-namespace:Avalonia.SpotifyClone.Views.Components"
         mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
         x:Class="Avalonia.SpotifyClone.Views.MainWindow"
         Icon="/Assets/avalonia-logo.ico"
-        Title="Avalonia.SpotifyClone">
+        Title="Avalonia.SpotifyClone"
+        Width="1280"
+        Height="720">
 
     <Design.DataContext>
         <vm:MainWindowViewModel/>
     </Design.DataContext>
 
-    <TextBlock Text="{Binding Greeting}" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+    <Grid>
+        <components:SideBar/>
+    </Grid>
 
 </Window>

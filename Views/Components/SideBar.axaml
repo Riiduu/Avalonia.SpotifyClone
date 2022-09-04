@@ -2,11 +2,79 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+             mc:Ignorable="d" d:DesignWidth="200" d:DesignHeight="450"
              x:Class="Avalonia.SpotifyClone.Views.Components.SideBar"
-             Width="200">
+             Width="200"
+             HorizontalAlignment="Left"
+             Background="Black">
         
-        <StackPanel>
+        <StackPanel Margin="15, 40, 15, 0">
+            <StackPanel HorizontalAlignment="Left">
+                <Grid Margin="0, 5">
+                    <Image Source="../../Assets/icons/icon-home.png"
+                           Width="23"
+                           Margin="-20, 0, 50, 0" />
+                    <TextBlock 
+                        FontSize="18"
+                        HorizontalAlignment="Left"
+                        Foreground="White"
+                        Margin="40, 3, 0, 0"
+                        >Home
+                    </TextBlock>
+                </Grid>
+                <Grid Margin="0, 5">
+                    <Image Source="../../Assets/icons/icon-search.png"
+                           Width="23"
+                           Margin="-20, 0, 50, 0" />
+                    <TextBlock 
+                        FontSize="18"
+                        HorizontalAlignment="Left"
+                        Foreground="White"
+                        Margin="40, 3, 0, 0"
+                    >Search
+                    </TextBlock>
+                </Grid>
+                <Grid Margin="0, 5">
+                    <Image Source="../../Assets/icons/icon-library.png"
+                           Width="23"
+                           Margin="-20, 0, 50, 0" />
+                    <TextBlock 
+                        FontSize="18"
+                        HorizontalAlignment="Left"
+                        Foreground="White"
+                        Margin="40, 3, 0, 0"
+                    >Playlists
+                    </TextBlock>
+                </Grid>
+                </StackPanel>
             
+                <!-- Lower panel -->
+            <StackPanel Margin="0, 30">
+                <Grid Margin="0, 5">
+                    <Image Source="../../Assets/icons/icon-plus.png"
+                           Width="23"
+                           Margin="-80, 0, 50, 0" />
+                    <TextBlock 
+                        FontSize="18"
+                        HorizontalAlignment="Left"
+                        Foreground="White"
+                        Margin="40, 3, 0, 0"
+                    >Create Playlist
+                    </TextBlock>
+                </Grid>
+                
+                <Grid Margin="0, 5">
+                    <Image Source="../../Assets/icons/icon-heart.png"
+                           Width="23"
+                           Margin="-80, 0, 50, 0" />
+                    <TextBlock 
+                        FontSize="18"
+                        HorizontalAlignment="Left"
+                        Foreground="White"
+                        Margin="40, 3, 0, 0"
+                    >Liked Songs
+                    </TextBlock>
+                </Grid>
+            </StackPanel>
         </StackPanel>
 </UserControl>
