@@ -4,10 +4,10 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:components="clr-namespace:Avalonia.SpotifyClone.Views.Components"
-        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        mc:Ignorable="d" d:DesignWidth="1280" d:DesignHeight="720"
         x:Class="Avalonia.SpotifyClone.Views.MainWindow"
-        Icon="/Assets/avalonia-logo.ico"
-        Title="Avalonia.SpotifyClone"
+        Icon="/Assets/main-icon.png"
+        Title="Spotify"
         Width="1280"
         Height="720">
 
@@ -17,6 +17,8 @@
 
     <Grid>
         <components:SideBar/>
+        <components:MainView />
+        <components:FriendsBar />
     </Grid>
 
 </Window>

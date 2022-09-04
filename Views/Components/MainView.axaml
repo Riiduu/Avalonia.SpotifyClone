@@ -2,7 +2,53 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
-             x:Class="Avalonia.SpotifyClone.Views.Components.MainView">
-    Welcome to Avalonia!
+             mc:Ignorable="d" d:DesignWidth="880" d:DesignHeight="450"
+             x:Class="Avalonia.SpotifyClone.Views.Components.MainView"
+             Width="880"
+             HorizontalAlignment="Center"
+             Background="#FF121212">
+    <StackPanel Margin="30">
+        <Grid VerticalAlignment="Top">
+            <Grid HorizontalAlignment="Left">
+                <Image Source="../../Assets/icons/icon-back.png"
+                       Width="25"/>
+                <Image Source="../../Assets/icons/icon-forward.png"
+                       Width="25"
+                       Margin="0, 0, -70, 0"/>
+            </Grid>
+            <Grid
+                HorizontalAlignment="Right">
+                <Border Width="100"
+                        Margin="0, 0, 140, 0"
+                        BorderBrush="White"
+                        BorderThickness="1"
+                        CornerRadius="50">
+                    <Button FontWeight="Bold"
+                            Foreground="White"
+                            HorizontalAlignment="Center">
+                        Upgrade
+                    </Button>
+                </Border>
+                
+                <Border Width="100"
+                        Margin="80, 0, 0, 0"
+                        BorderBrush="White"
+                        BorderThickness="1"
+                        CornerRadius="50">
+                        
+                        <Grid>
+                            <Image Source="../../Assets/icons/icon-profile.png"
+                                   Width="30" 
+                                   HorizontalAlignment="Left"/>
+                            <TextBlock Foreground="White"
+                                       HorizontalAlignment="Center"
+                                       Margin="10, 6, 0, 0"
+                                >Guest
+                            </TextBlock>
+                        </Grid>
+                </Border>
+            </Grid>
+        </Grid>
+    </StackPanel>
+            
 </UserControl>

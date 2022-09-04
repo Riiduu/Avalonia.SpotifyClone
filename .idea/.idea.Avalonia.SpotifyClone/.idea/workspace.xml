@@ -9,8 +9,9 @@
   <component name="ChangeListManager">
     <list default="true" id="4f11052d-b899-4815-b3ca-4ddc830a54c4" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Avalonia.SpotifyClone/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Avalonia.SpotifyClone/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/icons/icon-plus.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/icons/icon-plus.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/Components/SideBar.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Components/SideBar.axaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/avalonia-logo.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/Components/FriendsBar.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Components/FriendsBar.axaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/Components/MainView.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Components/MainView.axaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Views/MainWindow.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/MainWindow.axaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -73,7 +74,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1662311896138</updated>
-      <workItem from="1662311904640" duration="3182000" />
+      <workItem from="1662311904640" duration="4624000" />
     </task>
     <servers />
   </component>

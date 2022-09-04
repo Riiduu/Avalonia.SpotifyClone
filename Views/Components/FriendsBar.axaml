@@ -2,7 +2,19 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
-             x:Class="Avalonia.SpotifyClone.Views.Components.FriendsBar">
-    Welcome to Avalonia!
+             mc:Ignorable="d" d:DesignWidth="200" d:DesignHeight="450"
+             x:Class="Avalonia.SpotifyClone.Views.Components.FriendsBar"
+             Background="Black"
+             Width="200"
+             HorizontalAlignment="Right">
+    <Grid Margin="10, 40, 10, 0">
+        <TextBlock Foreground="White"
+                   FontSize="15"
+            >Add Friends</TextBlock>
+        <Image Source="../../Assets/icons/icon-addFriend.png"
+               HorizontalAlignment="Right"
+               Width="20"
+               VerticalAlignment="Top"/>
+    </Grid>
+    
 </UserControl>
