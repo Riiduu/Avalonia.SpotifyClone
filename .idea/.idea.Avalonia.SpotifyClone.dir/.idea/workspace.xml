@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="916c65e8-07b5-471f-be55-95a5c314a16a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/playlists/Playlist (2).jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/playlists/Playlist (3).jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/playlists/Playlist (4).jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/playlists/Playlist (5).jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/playlists/Playlist (6).jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/playlists/Playlist-1.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Views/Components/Playlist.axaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Views/Components/Playlist.axaml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Views/Components/RecentPlaylists.axaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Views/Components/RecentPlaylists.axaml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Avalonia.SpotifyClone/.idea/avalonia.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Avalonia.SpotifyClone/.idea/avalonia.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Avalonia.SpotifyClone/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Avalonia.SpotifyClone/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/Components/MainView.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Components/MainView.axaml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2EJwTG30B00RRNJNip7P9R591hb" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <created>1662327012884</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1662327012884</updated>
+      <workItem from="1662327028228" duration="23000" />
+    </task>
+    <servers />
+  </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+</project>

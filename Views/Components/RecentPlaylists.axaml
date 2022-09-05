@@ -1,0 +1,26 @@
+﻿<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:components="clr-namespace:Avalonia.SpotifyClone.Views.Components"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="500"
+             x:Class="Avalonia.SpotifyClone.Views.Components.RecentPlaylists"
+             Height="500"
+             Background="#FF121212">
+    
+    <StackPanel>
+        <TextBlock
+            Foreground="White"
+            FontSize="30"
+            FontWeight="Bold"
+            >Good Evening
+        </TextBlock>
+        <Grid
+              VerticalAlignment="Top"
+              Margin="0, 20">
+            <components:Playlist Name="Playlist1" HorizontalAlignment="Left"/>
+            <components:Playlist Name="Playlist2" HorizontalAlignment="Center"/>
+            <components:Playlist Name="Playlist3" HorizontalAlignment="Right"/>
+        </Grid>
+    </StackPanel>
+</UserControl>
